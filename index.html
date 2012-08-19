@@ -150,6 +150,7 @@
     <script src="compiled/behaviour/EdgeBounce.js"></script>
     <script src="compiled/behaviour/EdgeWrap.js"></script>
     <script src="compiled/behaviour/Wander.js"></script>
+    <script src="compiled/behaviour/Move.js"></script>
     <!-- Demo Renderers -->
     <script src="compiled/demos/renderer/Renderer.js"></script>
     <script src="compiled/demos/renderer/CanvasRenderer.js"></script>
@@ -220,7 +221,7 @@
                 $(window).bind('keydown', onKeyDown);
 
                 // Set default demo and start updating.
-                setDemo('Attraction');
+                setDemo('Bounds');
                 update();
 
                 // Highlight current renderer.

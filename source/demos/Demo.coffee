@@ -17,6 +17,7 @@ class Demo
 	setup: (full = yes) ->
 
 		### Override and add paticles / springs here ###
+		
 
 	### Initialise the demo (override). ###
 	init: (@container, @renderer = new WebGLRenderer()) ->
